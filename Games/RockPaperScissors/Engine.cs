@@ -7,28 +7,40 @@ using DeveloperGames.Games.RockPaperScissors.TempImplementations;
 
 namespace DeveloperGames.Games.RockPaperScissors
 {
-   public class Engine
+   public class Engine:IEngine
     {
-       GameResult StartGame(Player p1, Player p2)
+       public GameResult StartGame(User u1, User u2)
        {
-           IStrat p1Strat = LoadPlayerStrat(p1);
-           IStrat p2Strat = LoadPlayerStrat(p1);
-           var result = Simulate(p1Strat,p2Strat);
+           IStrat u1Strat = LoadPlayerStrat(u1);
+           IStrat u2Strat = LoadPlayerStrat(u2);
+           Player player1 = new Player(u1);
+           Player player2 = new Player(u2);
+           var result = new GameResult();
+          
+           for (int round = 0; round < Constants.Rounds; round++)
+           {
+               Move m1 = u1Strat.GetMove(player1, player2);
+               Move m2 = u1Strat.GetMove(player2, player1);
+               RoundResult roundResult = Compare(m1, m2);
+               
+
+               player1.LastMove = m1;
+               player2.LastMove = m2;
+              
+           }
+           
+
            return result;
        }
 
-       private GameResult Simulate(IStrat p1Strat, IStrat p2Strat)
+       private RoundResult Compare(Move m1, Move m2)
        {
-           for (int round = 0; round < Constants.Rounds; round++)
-           {
-               
-           }
-           return new  GameResult();
+           throw new NotImplementedException();
        }
 
-       private IStrat LoadPlayerStrat(Player player)
+       private IStrat LoadPlayerStrat(User user)
        {
-           if (player.Id == 1)
+           if (user.Id == 1)
            {
                return new Implementation1();
            }
@@ -44,9 +56,29 @@ namespace DeveloperGames.Games.RockPaperScissors
         
     }
 
-    public class Player
+    public class User
     {
         public int Id { get; set; }
         public string NickName { get; set; }
     }
+
+    public class Player :User
+    {
+        public Player(User user)
+        {
+            Id = user.Id;
+            NickName = user.NickName;
+        }
+        public Move? LastMove { get; set; }
+        public int RoundsWon { get; set; }
+        public int RoundsTied { get; set; }
+        public int RoundsLost { get; set; }
+
+    }
+
+    public enum RoundResult
+    {
+
+    }
+
 }

@@ -39,7 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Games\IEngine.cs" />
+    <Compile Include="Games\RockPaperScissors\Constants.cs" />
+    <Compile Include="Games\RockPaperScissors\Engine.cs" />
+    <Compile Include="Games\RockPaperScissors\IStrat.cs" />
+    <Compile Include="Games\RockPaperScissors\Moves.cs" />
+    <Compile Include="Games\RockPaperScissors\TempImplementations\Implementation1.cs" />
+    <Compile Include="Games\RockPaperScissors\TempImplementations\Implementation2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
