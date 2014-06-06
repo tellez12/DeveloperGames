@@ -8,9 +8,20 @@ namespace DeveloperGames.Games.RockPaperScissors.TempImplementations
 {
     public class Implementation2 : IStrat
     {
+        public Random MyRandom { get; set; }
+        public Implementation2()
+        {
+            MyRandom = new Random();
+        }
+        //Random All moves
         public Move GetMove(Player player1, Player player2)
         {
-            throw new NotImplementedException();
+            Array values = Enum.GetValues(typeof(Move));
+            Random random = new Random();
+            Move randomBar = (Move)values.GetValue(random.Next(values.Length));
+            return randomBar;
+
+            
         }
     }
 }

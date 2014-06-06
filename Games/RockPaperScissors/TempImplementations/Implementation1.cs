@@ -8,9 +8,15 @@ namespace DeveloperGames.Games.RockPaperScissors.TempImplementations
 {
    public class Implementation1:IStrat
     {
-       public Move GetMove(Player player1, Player player2)
+       //Progression
+       public Move GetMove(Player me, Player opponent)
        {
-           throw new NotImplementedException();
+           if (me.LastMove == Move.Rock)
+               return Move.Paper;
+           else if (me.LastMove == Move.Paper)
+               return Move.Scissors;
+           else
+               return Move.Rock;
        }
     }
 }

@@ -16,6 +16,7 @@ namespace DeveloperGames.Games.RockPaperScissors
             var player1 = new Player(u1);
             var player2 = new Player(u2);
             var result = new GameResult();
+            var tieBonus = 0;
 
             for (var round = 0; round < Constants.Rounds; round++)
             {
@@ -23,30 +24,33 @@ namespace DeveloperGames.Games.RockPaperScissors
                 var m2 = u2Strat.GetMove(player2, player1);
                 m1 = ValidateMove(ref player1, m1);
                 m2 = ValidateMove(ref player2, m2);
-
+                
                 var roundResult = Compare(m1, m2);
                 switch (roundResult)
                 {
                     case RoundResult.Tie:
                         player1.RoundsTied++;
                         player1.RoundsTied++;
+                        tieBonus++;
                         break;
                     case RoundResult.Win:
-                        player1.RoundsWon++;
+                        player1.RoundsWon= player1.RoundsWon + 1 + tieBonus;
                         player2.RoundsLost++;
+                        tieBonus = 0;
                         break;
                     default:
                         player1.RoundsLost++;
                         player2.RoundsWon++;
+                        player2.RoundsWon = player2.RoundsWon + 2 + tieBonus;
+                        tieBonus = 0;
                         break;
                 }
-
-
                 player1.LastMove = m1;
                 player2.LastMove = m2;
 
             }
-
+            result.Player1Score = player1.RoundsWon;
+            result.Player2Score = player2.RoundsWon;
 
             return result;
         }
@@ -104,6 +108,10 @@ namespace DeveloperGames.Games.RockPaperScissors
 
     public class GameResult
     {
+        public int Player1Score { get; set; }
+        public String Player1Log { get; set; }
+        public int Player2Score { get; set; }
+        public String Player2Log { get; set; }
 
     }
 
