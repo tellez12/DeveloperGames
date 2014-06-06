@@ -17,6 +17,8 @@ namespace DeveloperGames.Games.RockPaperScissors.TempImplementations
                return Move.Scissors;
            else
                return Move.Rock;
+
+           
        }
     }
 }

@@ -14,7 +14,7 @@ namespace DeveloperGames.Games.RockPaperScissors.TempImplementations
             MyRandom = new Random();
         }
         //Random All moves
-        public Move GetMove(Player player1, Player player2)
+        public Move GetMove(Player me, Player opponent)
         {
             Array values = Enum.GetValues(typeof(Move));
             Random random = new Random();

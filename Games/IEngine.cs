@@ -9,6 +9,6 @@ namespace DeveloperGames.Games
 {
     public interface IEngine
     {
-        GameResult StartGame(User p1, User p2);
+         GameResult StartGame(User p1, User p2);
     }
 }

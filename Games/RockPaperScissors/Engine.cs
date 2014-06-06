@@ -40,8 +40,8 @@ namespace DeveloperGames.Games.RockPaperScissors
                         break;
                     default:
                         player1.RoundsLost++;
-                        player2.RoundsWon++;
-                        player2.RoundsWon = player2.RoundsWon + 2 + tieBonus;
+                   
+                        player2.RoundsWon = player2.RoundsWon + 1 + tieBonus;
                         tieBonus = 0;
                         break;
                 }
