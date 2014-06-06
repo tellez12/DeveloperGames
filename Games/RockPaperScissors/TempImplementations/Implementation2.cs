@@ -8,5 +8,9 @@ namespace DeveloperGames.Games.RockPaperScissors.TempImplementations
 {
     public class Implementation2 : IStrat
     {
+        public Move GetMove(Player player1, Player player2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
