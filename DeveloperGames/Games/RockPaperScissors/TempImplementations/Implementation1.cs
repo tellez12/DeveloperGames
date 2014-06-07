@@ -11,14 +11,15 @@ namespace DeveloperGames.Games.RockPaperScissors.TempImplementations
        //Progression
        public Move GetMove(Player me, Player opponent)
        {
-           if (me.LastMove == Move.Rock)
-               return Move.Paper;
-           else if (me.LastMove == Move.Paper)
-               return Move.Scissors;
-           else
-               return Move.Rock;
-
-           
+           switch (me.LastMove)
+           {
+               case Move.Rock:
+                   return Move.Paper;
+               case Move.Paper:
+                   return Move.Scissors;
+               default:
+                   return Move.Rock;
+           }
        }
     }
 }

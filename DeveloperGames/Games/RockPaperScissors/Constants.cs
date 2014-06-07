@@ -8,7 +8,7 @@ namespace DeveloperGames.Games.RockPaperScissors
 {
    public static class Constants
    {
-       public const int Rounds = 1000;
-       public const int NDynamite = 100;
+       public const int Rounds = 10000;
+       public const int NDynamite = 1000;
    }
 }
