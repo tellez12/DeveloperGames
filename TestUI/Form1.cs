@@ -21,28 +21,13 @@ namespace TestUI
 
         private void BtnSimulateClick(object sender, EventArgs e)
         {
-            string code = @" public class Implementation2 
-                             {
-                             
-                                //Random All moves
-                                public Int GetMove()
-                                {
-                                   return 1;
-            
-                                }
-                            }";
+            string code = TxtCodeSource.Text;
 
             var users = new List<User>
                            {
                                new User {Id = 1, NickName = "Progression"},
                                new User {Id = 3, NickName = "TestRandom", StratCode = code}
                            };
-
-            if (!String.IsNullOrEmpty(TxtCodeSource.Text))
-            {
-
-            }
-            else
             {
                 IEngine engine = new Engine();
                 var result = engine.StartGame(users[0], users[1]);
@@ -67,6 +52,7 @@ namespace TestUI
                 }
                 TxtResults.Text = String.Format("The winner of the match was {0} with {1} points over {2} scored by {3}", winner.NickName, winnerScore, loser.NickName, loserScore);
             }
+
 
         }
     }
