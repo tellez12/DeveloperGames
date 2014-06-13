@@ -11,8 +11,8 @@ namespace DeveloperGames.Games.RockPaperScissors
     {
         public GameResult StartGame(User u1, User u2)
         {
-            var u1Strat = LoadPlayerStrat(u1);
-            var u2Strat = LoadPlayerStrat(u2);
+            var u1Strat = StratManager.LoadPlayerStrat(u1);
+            var u2Strat = StratManager.LoadPlayerStrat(u2);
             var player1 = new Player(u1);
             var player2 = new Player(u2);
             var result = new GameResult();
@@ -40,7 +40,6 @@ namespace DeveloperGames.Games.RockPaperScissors
                         break;
                     default:
                         player1.RoundsLost++;
-                   
                         player2.RoundsWon = player2.RoundsWon + 1 + tieBonus;
                         tieBonus = 0;
                         break;
@@ -92,18 +91,6 @@ namespace DeveloperGames.Games.RockPaperScissors
 
             return RoundResult.Tie;
         }
-
-        private IStrat LoadPlayerStrat(User user)
-        {
-            if (user.Id == 1)
-            {
-                return new Implementation1();
-            }
-            else
-            {
-                return new Implementation2();
-            }
-        }
     }
 
     public class GameResult
@@ -120,6 +107,8 @@ namespace DeveloperGames.Games.RockPaperScissors
         public int Id { get; set; }
         public string NickName { get; set; }
         public StringBuilder GameLog { get; set; }
+
+        public string StratCode { get; set; }
     }
 
     public class Player : User
