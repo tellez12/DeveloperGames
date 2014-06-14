@@ -1,0 +1,5 @@
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\bin\Debug\DeveloperGames.dll
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\bin\Debug\DeveloperGames.pdb
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\obj\Debug\DeveloperGames.csprojResolveAssemblyReference.cache
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\obj\Debug\DeveloperGames.dll
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\obj\Debug\DeveloperGames.pdb

@@ -4,3 +4,9 @@ C:\Users\Tellez\documents\visual studio 2013\Projects\DeveloperGames\ConsoleAppl
 C:\Users\Tellez\documents\visual studio 2013\Projects\DeveloperGames\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Tellez\documents\visual studio 2013\Projects\DeveloperGames\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
