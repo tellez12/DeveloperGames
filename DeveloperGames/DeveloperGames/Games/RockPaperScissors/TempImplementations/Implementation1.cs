@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DeveloperGames.Games.RockPaperScissors;
 
-namespace DeveloperGames.Games.RockPaperScissors.TempImplementations
-{
-   public class Implementation1:IStrat
+
+   public class Test:IStrat
     {
        //Progression
        public Move GetMove(Player me, Player opponent)
@@ -22,4 +17,4 @@ namespace DeveloperGames.Games.RockPaperScissors.TempImplementations
            }
        }
     }
-}
+

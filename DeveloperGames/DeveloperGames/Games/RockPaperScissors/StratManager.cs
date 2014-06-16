@@ -16,7 +16,7 @@ namespace DeveloperGames.Games.RockPaperScissors
         {
             if (user.Id == 1)
             {
-                return new Implementation1();
+                return new Test();
             }
             else if (user.Id == 2)
             {
@@ -44,16 +44,20 @@ namespace DeveloperGames.Games.RockPaperScissors
                GenerateExecutable = false
            };
            compilerParams.ReferencedAssemblies.Add(typeof(IStrat).Assembly.Location);
+           compilerParams.ReferencedAssemblies.Add(typeof(Player).Assembly.Location);
+           compilerParams.ReferencedAssemblies.Add(typeof(Move).Assembly.Location);
+         
+
            CompilerResults results = provider.CompileAssemblyFromSource(compilerParams, source);
 
-           if (results.Errors.Count == 0)
+            if (results.Errors.Count == 0)
            {
 
            }
 
            IStrat test = results.CompiledAssembly.CreateInstance("Test") as IStrat;
          
-           return null;
+           return test;
        }
 
       

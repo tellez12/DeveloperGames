@@ -1,14 +1,3 @@
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\TestUI.exe.config
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\TestUI.exe
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\TestUI.pdb
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\DeveloperGames.dll
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\DeveloperGames.pdb
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.csprojResolveAssemblyReference.cache
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.Form1.resources
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.Properties.Resources.resources
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.csproj.GenerateResource.Cache
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.exe
-C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.pdb
 C:\Users\ltellez\Documents\GitHub\DeveloperGames\TestUI\bin\Debug\TestUI.exe.config
 C:\Users\ltellez\Documents\GitHub\DeveloperGames\TestUI\bin\Debug\TestUI.exe
 C:\Users\ltellez\Documents\GitHub\DeveloperGames\TestUI\bin\Debug\TestUI.pdb
@@ -20,3 +9,14 @@ C:\Users\ltellez\Documents\GitHub\DeveloperGames\TestUI\obj\Debug\TestUI.Propert
 C:\Users\ltellez\Documents\GitHub\DeveloperGames\TestUI\obj\Debug\TestUI.csproj.GenerateResource.Cache
 C:\Users\ltellez\Documents\GitHub\DeveloperGames\TestUI\obj\Debug\TestUI.exe
 C:\Users\ltellez\Documents\GitHub\DeveloperGames\TestUI\obj\Debug\TestUI.pdb
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\TestUI.exe.config
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\TestUI.exe
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\TestUI.pdb
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\DeveloperGames.dll
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\bin\Debug\DeveloperGames.pdb
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.csprojResolveAssemblyReference.cache
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.Form1.resources
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.Properties.Resources.resources
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.csproj.GenerateResource.Cache
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.exe
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\TestUI\obj\Debug\TestUI.pdb
