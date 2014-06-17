@@ -12,6 +12,5 @@ namespace DeveloperGames.Domain.Entities
 
         public String UserCode { get; set; }
 
-
-    }
+     }
 }

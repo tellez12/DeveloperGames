@@ -11,5 +11,6 @@ namespace DeveloperGames.Domain.Entities
        public int Id { get; set; }
        public String Name { get; set; }
        public bool Active { get; set; }
+       public String SampleCode { get;  set; }
    }
 }
