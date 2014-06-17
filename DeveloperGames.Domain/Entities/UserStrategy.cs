@@ -9,7 +9,7 @@ namespace DeveloperGames.Domain.Entities
     public class UserStrategy
     {
         public virtual ApplicationUser User { get; set; }
-
+        public virtual Game Game { get; set; }
         public String UserCode { get; set; }
 
      }
