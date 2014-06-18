@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity.EntityFramework;
 using DeveloperGames.Domain.Entities;
+using System.Data.Entity;
 
 namespace DeveloperGames.Domain.EF
 {
@@ -14,5 +15,9 @@ namespace DeveloperGames.Domain.EF
             : base("DefaultConnection")
         {
         }
+
+        public DbSet<Game> Games { get; set; }
+        public DbSet<MatchResult> MatchResults { get; set; }
+        public DbSet<UserStrategy> UserStrategies { get; set; }
     }
 }

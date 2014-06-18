@@ -8,6 +8,7 @@ namespace DeveloperGames.Domain.Entities
 {
     public class MatchResult
     {
+        public int Id { get; set; }
         public Game Game { get; set; }
         public ApplicationUser User1 { get; set; }
         public int User1Score { get; set; }

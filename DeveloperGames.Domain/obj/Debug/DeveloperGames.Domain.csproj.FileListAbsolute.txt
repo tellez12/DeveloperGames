@@ -12,3 +12,19 @@ C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGa
 C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.dll
 C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.pdb
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\DeveloperGames.Domain.dll.config
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\DeveloperGames.Domain.dll
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\DeveloperGames.Domain.pdb
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\EntityFramework.dll
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\EntityFramework.xml
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.csprojResolveAssemblyReference.cache
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.dll
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.pdb
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.Migrations.Initial.resources
+C:\Users\ltellez\Documents\GitHub\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.csproj.GenerateResource.Cache

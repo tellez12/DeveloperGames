@@ -10,12 +10,14 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using DeveloperGames.WebUI.Models;
+using DeveloperGames.Domain.EF;
 
 namespace DeveloperGames.WebUI.Controllers
 {
     [Authorize]
     public class AccountController : Controller
     {
+        //TODO:Need to take out all the DB LOGIC
         public AccountController()
             : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
         {
