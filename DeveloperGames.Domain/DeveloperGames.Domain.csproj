@@ -59,11 +59,12 @@
     <Compile Include="EF\EFUserStrategyRepository.cs" />
     <Compile Include="Entities\ApplicationUser.cs" />
     <Compile Include="Entities\Game.cs" />
+    <Compile Include="Entities\Leaderboard.cs" />
     <Compile Include="Entities\MatchResult.cs" />
     <Compile Include="Entities\UserStrategy.cs" />
-    <Compile Include="Migrations\201406172340401_Initial.cs" />
-    <Compile Include="Migrations\201406172340401_Initial.Designer.cs">
-      <DependentUpon>201406172340401_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201406190330506_Initial.cs" />
+    <Compile Include="Migrations\201406190330506_Initial.Designer.cs">
+      <DependentUpon>201406190330506_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,11 +75,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201406172340401_Initial.resx">
-      <DependentUpon>201406172340401_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201406190330506_Initial.resx">
+      <DependentUpon>201406190330506_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

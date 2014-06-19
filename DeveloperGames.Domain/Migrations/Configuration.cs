@@ -14,8 +14,6 @@ namespace DeveloperGames.Domain.Migrations
 
         protected override void Seed(DeveloperGames.Domain.EF.ApplicationDbContext context)
         {
-            var sampleCode = " Example code here";
-            context.Games.Add(new Entities.Game { Active = true, Name = "Paper Rock Scissors", SampleCode = sampleCode  });
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
