@@ -26,6 +26,15 @@ namespace DeveloperGames.WebUI
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/codemirror").Include(
+                     
+                      "~/Scripts/codemirror-2.37/lib/codemirror.css"));
+            
+            bundles.Add(new ScriptBundle("~/bundles/codemirror").Include(
+                    
+                      "~/Scripts/lib/codemirror.js"));
+
         }
     }
 }

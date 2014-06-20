@@ -9,26 +9,12 @@ namespace DeveloperGames.Domain.Entities
 {
     public class Leaderboard
     {
-        public int Id { get;  set; }
-        public string UserId { get; set; }
+        public int Id { get; set; }
+        public string Name { get;  set; }
+        public string Code { get; set; }
 
-        [ForeignKey("UserId")]
-        public virtual ApplicationUser User { get; set; }
-        public int GameId { get; set; }
-
-        [ForeignKey("GameId")]
-        public virtual Game Game { get; set; }
-
-        public int Wins { get; set; }
-
-        public int Ties { get;  set; }
-
-        public int Losses { get;  set; }
-
-        [NotMapped]
-        public int Points { get; set; }
-
-        //public DateTime CreatedDate { get; set; }
+        public bool IsPrivate { get; set; }
+        public DateTime CreatedDate { get; set; }
      
     }
 }

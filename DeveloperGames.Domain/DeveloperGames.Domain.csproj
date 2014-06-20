@@ -60,11 +60,20 @@
     <Compile Include="Entities\ApplicationUser.cs" />
     <Compile Include="Entities\Game.cs" />
     <Compile Include="Entities\Leaderboard.cs" />
+    <Compile Include="Entities\LeaderboardEntry.cs" />
     <Compile Include="Entities\MatchResult.cs" />
     <Compile Include="Entities\UserStrategy.cs" />
     <Compile Include="Migrations\201406190330506_Initial.cs" />
     <Compile Include="Migrations\201406190330506_Initial.Designer.cs">
       <DependentUpon>201406190330506_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201406200117076_LeaderboardEntry.cs" />
+    <Compile Include="Migrations\201406200117076_LeaderboardEntry.Designer.cs">
+      <DependentUpon>201406200117076_LeaderboardEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201406200307036_x.cs" />
+    <Compile Include="Migrations\201406200307036_x.Designer.cs">
+      <DependentUpon>201406200307036_x.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +86,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201406190330506_Initial.resx">
       <DependentUpon>201406190330506_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201406200117076_LeaderboardEntry.resx">
+      <DependentUpon>201406200117076_LeaderboardEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201406200307036_x.resx">
+      <DependentUpon>201406200307036_x.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

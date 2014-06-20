@@ -30,3 +30,5 @@ C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGa
 C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.pdb
 C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.Migrations.Initial.resources
 C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.csproj.GenerateResource.Cache
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.Migrations.LeaderboardEntry.resources
+C:\Users\Tellez\Documents\Visual Studio 2013\Projects\DeveloperGames\DeveloperGames.Domain\obj\Debug\DeveloperGames.Domain.Migrations.x.resources

@@ -4,7 +4,7 @@
 @{
     ViewBag.Title = "Create";
 }
-
+<link href="~/Scripts/codemirror-2.37/lib/codemirror.css" rel="stylesheet" />
 <h2>Create</h2>
 
 
@@ -21,7 +21,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.UserCode, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextAreaFor(model => model.UserCode)
+                @Html.TextAreaFor(model => model.UserCode, new { rows = "20", cols = "120" })
                 @Html.ValidationMessageFor(model => model.UserCode)
             </div>
         </div>
@@ -40,4 +40,14 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+
+<script src="~/Scripts/codemirror-2.37/lib/codemirror.js"></script>
+<script src="~/Scripts/codemirror-2.37/mode/clike/clike.js"></script>
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("UserCode"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        mode: "text/x-csharp"
+    });
+</script> 
 }
